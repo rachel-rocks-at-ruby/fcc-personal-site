@@ -1,0 +1,118 @@
+.navbar-default {
+  background-color: #33A29D;
+}
+
+.navbar-brand {
+  font-family: Pacifico, cursive;
+  color: purple !important;
+  font-size:25px;
+}
+
+.icon-bar {
+  background-color: purple !important;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: purple;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: white;
+}
+
+ul.navbar-right li a {
+  padding-top:15px;
+  padding-right: 25px;
+  color: purple;
+  font-family: Source Sans Pro, sans-serif;
+  font-size:16px;
+  font-weight:500;
+}
+
+main {
+  background-color: lightgray;
+}
+
+#features {
+  position: relative;
+  background-color: white;
+}
+
+#about {
+  padding-top: 125px;
+  padding-bottom: 50px;
+}
+
+#rachel {
+  border-radius: 60%;
+  height: 18em;
+}
+
+h1 {
+  color: purple;
+  font-family: Source Sans Pro, sans-serif;
+}
+
+p {
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 16px;
+}
+
+#education h1,
+#contact h1 {
+  text-align: center;
+}
+
+#education img {
+  width: 90%;
+  padding-top: 20px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #f5f5f5;
+}
+
+p.text-muted {
+  padding-top: 15px;
+}
+
+ul {
+  list-style: none;
+}
+
+.fa {
+  font-size: 6em;
+  color: gray;
+}
+
+#contact {
+  margin-bottom: 100px;
+}
+
+#contact-list {
+  text-align: center;
+  padding-top: 25px;
+}
+
+#contact-list li {
+  display: inline-block;
+  padding-right: 55px;
+}
+
+.fa:hover {
+  color: #33A29D;
+}
+
+@media (max-width: 991px) {
+    #about h1 {
+        text-align: center;
+    }
+  
+  #about p {
+    text-align: center;
+  }
+}
